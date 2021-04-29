@@ -3,11 +3,7 @@
 <?php include("includes/header.php") ?>
 
 <div class="container p-4">
-
     <div class="row">
-
-    
-
         <div class="col-sm-12">
             <table class="table table-dark table-striped table-bordered text-center">
 
@@ -21,8 +17,10 @@
                         <th>Acciones</th>
                     </tr>
                 </thead>
+
                 <tbody>
                     <?php
+                    //Armamos la tabla loopeando sobre el contenido de la DB
                     $query = "SELECT * FROM book";
                     $result_books = mysqli_query($conn, $query);
 
@@ -42,22 +40,11 @@
                                 </a>
                             </td>
                         </tr>
-
-
                     <?php } ?>
-
-
-
-
                 </tbody>
             </table>
-
         </div>
-
     </div>
-
-
 </div>
-
 
 <?php include("includes/footer.php") ?>

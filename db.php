@@ -1,6 +1,6 @@
 <?php
 
-//session
+//inicio de la sesión
 session_start();
 
 //Conexión a la DB
@@ -9,7 +9,6 @@ $conn = mysqli_connect(
     'root',
     '',
     'php_crud_mysql_napptilus'
-
 );
 
 ?>
