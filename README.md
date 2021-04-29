@@ -1,4 +1,4 @@
-## # **CRUD utilizando PHP + mySQL**
+## # **CRUD utilizando PHP + MySQL**
 ###### {título, autor, isbn, sinopsis, portada (img desde servidor)}
 
 ------------
@@ -6,7 +6,7 @@
 
 
 ###### Procedimiento sugerido para correr el proyecto en local 🤓:
-1. Si es tu primera vez con PHP y DB mySQL, te sugiero descargar XAMPP y MySQL Workbench.
+1. Si es tu primera vez con PHP y DB MySQL, te sugiero descargar XAMPP y MySQL Workbench.
 
 2. Descarga este repositorio y pega la carpeta descomprimida en la ruta "\xampp\htdocs" (ie: ==> C:\xampp\htdocs (valor por defecto de la instalación de xampp))
 
