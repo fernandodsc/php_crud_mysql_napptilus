@@ -9,7 +9,7 @@
 1. Si es tu primera vez con PHP y DB mySQL, te sugiero descargar XAMPP y MySQL Workbench.
 
 2. Abre xampp e inicia Apache y mySQL, de manera que veas algo similar a esto:
-![xampp_print](./media/xampp.png "xampp_print")
+![xampp_print](https://github.com/fernandodsc/CRUD_php_mysql/blob/master/media/xampp.PNG "xampp_print")
 
 3. Desde la terminal (ie: MySQL Shell) o desde Workbench, corre el script para crear la base de datos.
 
